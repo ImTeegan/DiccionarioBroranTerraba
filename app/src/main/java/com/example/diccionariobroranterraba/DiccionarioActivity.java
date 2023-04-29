@@ -22,10 +22,10 @@ public class DiccionarioActivity extends AppCompatActivity {
 
     public void init() { // puede estar en un archivo
         elements = new ArrayList<>();
-        elements.add(new ListElement("#775447", "Aguacate", "se borraraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"));
-        elements.add(new ListElement("#607d8b", "maiz", "se borraraaaa"));
-        elements.add(new ListElement("#03a9f4", "Yisus", "se borraraaaa"));
-        elements.add(new ListElement("#f44336", "Yogurt", "se borraraaaa"));
+        elements.add(new ListElement("Aguacate", "se borraraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"));
+        elements.add(new ListElement("maiz", "se borraraaaa"));
+        elements.add(new ListElement("Yisus", "se borraraaaa"));
+        elements.add(new ListElement("Yogurt", "se borraraaaa"));
 
         ListAdapter listAdapter = new ListAdapter(elements, this);
         RecyclerView recyclerView = findViewById(R.id.diccionarioRecycler);

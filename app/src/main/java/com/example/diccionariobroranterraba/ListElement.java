@@ -5,8 +5,8 @@ public class ListElement {
     public String name;
     public String city;
 
-    public ListElement(String color, String name, String city) {
-        this.color = color;
+    public ListElement( String name, String city) {
+
         this.name = name;
         this.city = city;
     }
