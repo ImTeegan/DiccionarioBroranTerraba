@@ -1,71 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
+
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/cv"
-    android:layout_width="410dp"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:animateLayoutChanges="true"
-    app:cardCornerRadius="20dp"
-    app:cardElevation="4dp"
-    app:cardUseCompatPadding="true">
+    android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:animateLayoutChanges="true"
-        android:orientation="vertical">
+        android:layout_margin="8dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardUseCompatPadding="true">
+
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-              
-            android:padding="6dp">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
             <ImageView
-                android:id="@+id/iconImageView"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_alignParentStart="true"
-                android:layout_centerVertical="true"
-                android:paddingLeft="14dp"
-                android:paddingRight="14dp"
-                app:srcCompat="@drawable/atolito"
-                android:layout_alignParentLeft="true"
-                >
+                android:id="@+id/image_view"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_launcher_background"/>
 
-            </ImageView>
-            <LinearLayout
-                android:id="@+id/cardDetails"
-                android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/titleElement"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="4dp"
-                android:layout_marginTop="2dp"
-                android:layout_toEndOf="@+id/iconImageView"
-                android:orientation="vertical"
-                android:layout_marginLeft="4dp"
-                android:layout_toRightOf="@+id/iconImageView">
-                <TextView
-                    android:id="@+id/titleElement"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="2dp"
-                    android:text="Elemento 1"
-                    android:textColor="@android:color/black"
-                    android:textSize="24sp"
-                    android:textStyle="bold"/>
+                android:layout_marginBottom="2dp"
+                android:text="Elemento 1"
+                android:layout_below="@id/image_view"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
 
-                <TextView
-                    android:id="@+id/cityTextView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="esto se va a quitar"
-                    android:textSize="18sp"/>
-
-            </LinearLayout>
+            <ImageView
+                android:id="@+id/play_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/titleElement"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/baseline_play_arrow_24"/>
 
         </RelativeLayout>
-    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
 
 
-</androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
 
