@@ -109,6 +109,27 @@ public class DiccionarioActivity extends AppCompatActivity implements RecyclerAd
         imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.fcodiomdpi, R.raw.violin, "có dió"));
         imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.fomdpi, R.raw.violin, "ó"));
         imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.fdimdpi, R.raw.violin, "dí"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.uigocmdpi, R.raw.violin, "igö́c"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.uzgomdpi, R.raw.violin, "zgö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.uzhuenmdpi, R.raw.violin, "zhuë́n̈"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.udronmdpi, R.raw.violin, "drö́n̈"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.uzbimdpi, R.raw.violin, "zbí"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.ucuremdpi, R.raw.violin, "c’uŕë́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.utushquimdpi, R.raw.violin, "t’ushquí"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.uarashaclomdpi, R.raw.violin, "aŕashaclo"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.ucracomdpi, R.raw.violin, "cŕáco/apcuóta"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.udurgomdpi, R.raw.violin, "dúrgo"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.ucongomdpi, R.raw.violin, "con̈gó"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.uquipcuomdpi, R.raw.violin, "qu’ipcuó"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.uyongromdpi, R.raw.violin, ""));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.cshpamdpi, R.raw.violin, "shpá"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.cquemdpi, R.raw.violin, "quë́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.cshpactenmdpi, R.raw.violin, "shpácten̈ / shpoctén̈"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.cfrebremdpi, R.raw.violin, "frëbrë́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.baricdigomdpi, R.raw.violin, "ba ŕíc dí go"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.badionmdpi, R.raw.violin, "ba dión̈"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.bashricmdpi, R.raw.violin, "ba shríc"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.basucmdpi, R.raw.violin, "ba súc"));
 
 
 
