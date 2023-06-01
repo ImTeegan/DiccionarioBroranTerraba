@@ -15,7 +15,8 @@ import android.view.WindowManager;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DiccionarioActivity extends AppCompatActivity implements RecyclerAdapter.itemClickListener {
+public class Receta12Activity extends AppCompatActivity implements RecyclerAdapter.itemClickListener{
+
     private MediaPlayer mMediaPlayer;
     private AudioManager mAudioManager;
 
@@ -45,37 +46,27 @@ public class DiccionarioActivity extends AppCompatActivity implements RecyclerAd
         }
     };
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_diccionario);
+        setContentView(R.layout.activity_receta12);
         getSupportActionBar().hide();
+        setContentView(R.layout.activity_receta12);
 
-        setContentView(R.layout.activity_diccionario);
-
-
-
-        RecyclerView recyclerView = findViewById(R.id.diccionarioRecycler);
+        RecyclerView recyclerView = findViewById(R.id.receta12Recycler);
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 
         //Creates an array of images and soundEffects
         imageAndSoundModelArrayList = new ArrayList<>();
 
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.kiwi, R.raw.suspenso, "Dona"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.kiwiii, R.raw.taantaantan, "Gatito"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animales, R.raw.trompeta, "Animales"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.arbol, R.raw.violin, "Arbol"));
         imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.adona, R.raw.suspenso, "Dona"));
         imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.agatito, R.raw.taantaantan, "Gatito"));
         imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animales, R.raw.trompeta, "Animales"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.arbol, R.raw.violin, "Arbol"));
 
         RecyclerAdapter adapter = new RecyclerAdapter(imageAndSoundModelArrayList, getApplicationContext(), this);
-        recyclerView.setLayoutManager(new GridLayoutManager(DiccionarioActivity.this, 2));
+        recyclerView.setLayoutManager(new GridLayoutManager(Receta12Activity.this, 2));
         recyclerView.setAdapter(adapter);
     }
 
@@ -101,39 +92,9 @@ public class DiccionarioActivity extends AppCompatActivity implements RecyclerAd
         int result = mAudioManager.requestAudioFocus(mOnAudioFocusChangeListener, AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
 
         if (result == mAudioManager.AUDIOFOCUS_REQUEST_GRANTED){
-            mMediaPlayer = MediaPlayer.create(DiccionarioActivity.this, imageAndSoundModel.getmAudioResourceID());
+            mMediaPlayer = MediaPlayer.create(Receta12Activity.this, imageAndSoundModel.getmAudioResourceID());
         }
         mMediaPlayer.start();
         mMediaPlayer.setOnCompletionListener(mCompletionListener);
     }
-
-
-
-
-/*
-    List<ListElement> elements;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_diccionario);
-
-        init();
-    }
-
-    public void init() { // puede estar en un archivo
-        elements = new ArrayList<>();
-        elements.add(new ListElement("#775447", "Aguacate", "se borraraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"));
-        elements.add(new ListElement("#607d8b", "maiz", "se borraraaaa"));
-        elements.add(new ListElement("#03a9f4", "Yisus", "se borraraaaa"));
-        elements.add(new ListElement("#f44336", "Yogurt", "se borraraaaa"));
-
-        RecyclerAdapter recyclerAdapter = new RecyclerAdapter(elements, this);
-        RecyclerView recyclerView = findViewById(R.id.diccionarioRecycler);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerView.setAdapter(recyclerAdapter);
-    }*/
 }
-
-
-
