@@ -5,7 +5,7 @@
     android:id="@+id/tituloDiccionario"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Receta1Activity">
+    tools:context=".Receta6Activity">
 
     <TextView
         android:id="@+id/textView3"
@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/receta1Recycler"
+        android:id="@+id/receta6Recycler"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="1dp"
