@@ -61,9 +61,32 @@ public class Receta1Activity extends AppCompatActivity implements RecyclerAdapte
         //Creates an array of images and soundEffects
         imageAndSoundModelArrayList = new ArrayList<>();
 
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.adona, R.raw.suspenso, "Dona"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.agatito, R.raw.taantaantan, "Gatito"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animales, R.raw.trompeta, "Animales"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada1, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada2, R.raw.surprise, "shrí"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada3, R.raw.surprise, "c’uŕí"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada4, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada5, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada6, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada7, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada8, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada9, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada10, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada11, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada12, R.raw.surprise, "shtö́"));
+
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada1mdpi, R.raw.surprise, "óhua e zréi dí c’ŕíc iroi "));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada2mdpi, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada3, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada4mdpi, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada5mdpi, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada6mdpi, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada7mdpi, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada8mdpi, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada9mdpi, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada10mdpi, R.raw.surprise, "shtö́"));
+
+
+
 
         RecyclerAdapter adapter = new RecyclerAdapter(imageAndSoundModelArrayList, getApplicationContext(), this);
         recyclerView.setLayoutManager(new GridLayoutManager(Receta1Activity.this, 2));

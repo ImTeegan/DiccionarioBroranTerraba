@@ -38,13 +38,13 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito"
+                    android:src="@drawable/carneahumada1mdpi"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 1"
+                    android:text="së́n̈na shó \n dión̈ ñógo í"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -74,13 +74,13 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito"
+                    android:src="@drawable/chorizo2mdpi"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 2"
+                    android:text="së́n̈ zhán̈cógro \n iroi"
                     android:textAlignment="center"
                     android:textSize="22sp"
                     android:textStyle="bold" />
@@ -110,13 +110,13 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito"
+                    android:src="@drawable/pozol1mdpi"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 3"
+                    android:text="ë́b cuó \nsë́n̈ t’oc dió"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -146,12 +146,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/pescado1mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 4"
+                    android:text="bómcuo súi \nc’róga iroi"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -179,12 +179,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/bananoverdesancochado1mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 5"
+                    android:text="ibin̈ quësón̈ ŕii"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -212,12 +212,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/bananoverdeasado4mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 6"
+                    android:text="bin̈zá"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -245,12 +245,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/atoldebananoseco6mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 7"
+                    android:text="bin̈sŕó jö́nio"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -278,12 +278,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/tamaldebanano7mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 8"
+                    android:text="birín̈go óco"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -311,12 +311,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/atoldemaiz1mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 9"
+                    android:text="ë́b jö́nio"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -344,12 +344,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/tamaldemaiz9mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 10"
+                    android:text="ë́b igá"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -377,12 +377,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/tortillasdemaiz12mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 11"
+                    android:text="igapcuó"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -410,12 +410,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/quequebananomaiz13mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 12"
+                    android:text="suin̈gá /\nshuin̈gá"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -443,12 +443,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/chichademaiz9mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 13"
+                    android:text="ë́b ó"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -476,12 +476,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/tamaldearroz18mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 14"
+                    android:text="c’uofrurún igá"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -509,12 +509,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/yucasancochada6mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 15"
+                    android:text="íc ŕíc í"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -542,12 +542,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/yucaasada4mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 16"
+                    android:text="íc súc í"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -575,12 +575,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/pacaya4mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 17"
+                    android:text="zhóc"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -608,12 +608,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/cacao1mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 18"
+                    android:text="có dió"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -641,12 +641,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/coquioyo1mdpi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 19"
+                    android:text="có qu’ióyo"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -674,12 +674,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/atolito" />
+                    android:src="@drawable/chicadepejibaye6" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receta 20"
+                    android:text="shúb ó"
                     android:textSize="22sp"
                     android:textAlignment="center"
                     android:textStyle="bold" />
