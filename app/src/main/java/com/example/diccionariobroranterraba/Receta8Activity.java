@@ -61,9 +61,18 @@ public class Receta8Activity extends AppCompatActivity implements RecyclerAdapte
         //Creates an array of images and soundEffects
         imageAndSoundModelArrayList = new ArrayList<>();
 
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.adona, R.raw.suspenso, "Dona"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.agatito, R.raw.taantaantan, "Gatito"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animales, R.raw.trompeta, "Animales"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldebanano1mdpi, R.raw.surprise, "québin̈ quësón̈ cuóta\n" +
+                "shcuë́i c’uomiá"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldebanano2mdpi, R.raw.surprise, "diói dŕó go dabár cuón"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldebanano3mdpi, R.raw.surprise, "cŕói apcuóta go"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldebanano4mdpi, R.raw.surprise, "prún̈sho yë́i igö́c iroi"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldebanano5mdpi, R.raw.surprise, "ŕohuë́i québin̈ cuía\n" +
+                "c’uoshquín̈ t’oc"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldebanano6mdpi, R.raw.surprise, "prún̈sho yë́i dúrgo qu’ín̈go"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldebanano7mdpi, R.raw.surprise, "pobguë́i cróga ŕigó"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldebanano8mdpi, R.raw.surprise, "huórbo shpúi ba iró shco ŕë́i"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldebanano9mdpi, R.raw.surprise, "pobríi qu’ipcuó go"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldebanano10mdpi, R.raw.surprise, "ŕíi zbí iroi cóc cuará e béigo"));
 
         RecyclerAdapter adapter = new RecyclerAdapter(imageAndSoundModelArrayList, getApplicationContext(), this);
         recyclerView.setLayoutManager(new GridLayoutManager(Receta8Activity.this, 2));

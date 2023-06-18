@@ -61,9 +61,17 @@ public class Receta4Activity extends AppCompatActivity implements RecyclerAdapte
         //Creates an array of images and soundEffects
         imageAndSoundModelArrayList = new ArrayList<>();
 
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.adona, R.raw.suspenso, "Dona"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.agatito, R.raw.taantaantan, "Gatito"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animales, R.raw.trompeta, "Animales"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.pescado1mdpi, R.raw.surprise, "zhír"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.pescado2mdpi, R.raw.surprise, "bö́mcuo"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.pescado3mdpi, R.raw.surprise, "quë́zhbon"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.pescado4mdpi, R.raw.surprise, "c’ö́s"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.pescado5mdpi, R.raw.surprise, "ibë́huo"));
+
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.pescadoenhoja1mdpi, R.raw.surprise, "bómcuo yë́i bo c’róga iroi"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.pescadoenhoja2mdpi, R.raw.surprise, "c’róga póbguëi éjic"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.pescadoenhoja3mdpi, R.raw.surprise, "pobgó roi pírga yë́i jón̈ yocséa iroi"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.pescadoenhoja4mdpi, R.raw.surprise, "e huorcuë́i"));
+
 
         RecyclerAdapter adapter = new RecyclerAdapter(imageAndSoundModelArrayList, getApplicationContext(), this);
         recyclerView.setLayoutManager(new GridLayoutManager(Receta4Activity.this, 2));

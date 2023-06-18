@@ -61,9 +61,16 @@ public class Receta7Activity extends AppCompatActivity implements RecyclerAdapte
         //Creates an array of images and soundEffects
         imageAndSoundModelArrayList = new ArrayList<>();
 
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.adona, R.raw.suspenso, "Dona"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.agatito, R.raw.taantaantan, "Gatito"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animales, R.raw.trompeta, "Animales"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.atoldebananoseco1mdpi, R.raw.surprise, "ibin̈ quësón̈ e shói béië"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.atoldebananoseco2mdpi, R.raw.surprise, "cuóta shcuë́i"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.atoldebananoseco3mdpi, R.raw.surprise, "yë́i idán dŕó i dabár cuón"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.atoldebananoseco4mdpi, R.raw.surprise, "dáno pírga cŕói apcuóta go"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.atoldebananoseco5mdpi, R.raw.surprise, "prún̈sho yë́i igö́c iroi"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.atoldebananoseco6mdpi, R.raw.surprise, "ibín̈ cuía ŕopsaŕái ibín̈ quësón̈ prún̈sho t’oc"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.atoldebananoseco7mdpi, R.raw.surprise, "dí tië́i ba iroi"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.atoldebananoseco8mdpi, R.raw.surprise, "shóishrui ún̈con"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.atoldebananoseco9mdpi, R.raw.surprise, "ŕíi zbí go dabár béië"));
+
 
         RecyclerAdapter adapter = new RecyclerAdapter(imageAndSoundModelArrayList, getApplicationContext(), this);
         recyclerView.setLayoutManager(new GridLayoutManager(Receta7Activity.this, 2));

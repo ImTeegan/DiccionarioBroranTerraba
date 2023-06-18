@@ -64,26 +64,26 @@ public class Receta1Activity extends AppCompatActivity implements RecyclerAdapte
         imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada1, R.raw.surprise, "shtö́"));
         imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada2, R.raw.surprise, "shrí"));
         imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada3, R.raw.surprise, "c’uŕí"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada4, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada5, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada6, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada7, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada8, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada9, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada10, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada11, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada12, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada4, R.raw.surprise, "shcuŕë́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada5, R.raw.surprise, "shuŕín̈"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada6, R.raw.surprise, "só"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada7, R.raw.surprise, "juón̈"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada8, R.raw.surprise, "dúpcuo"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada9, R.raw.surprise, "zhguŕó"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada10, R.raw.surprise, "srúc"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada11, R.raw.surprise, "fö́ shuŕín̈"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animalcarneahumada12, R.raw.surprise, "nepcuógra"));
 
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada1mdpi, R.raw.surprise, "óhua e zréi dí c’ŕíc iroi "));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada2mdpi, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada3, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada4mdpi, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada5mdpi, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada6mdpi, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada7mdpi, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada8mdpi, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada9mdpi, R.raw.surprise, "shtö́"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada10mdpi, R.raw.surprise, "shtö́"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada1mdpi, R.raw.surprise, "óhua e zréi dí c’ŕíc iroi"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada2mdpi, R.raw.surprise, "zóc shrín̈ i"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada3, R.raw.surprise, "zë́i bóc chíra"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada4mdpi, R.raw.surprise, "së́n̈na yë́i dúrgo qu’ín̈go"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada5mdpi, R.raw.surprise, "drún̈ yë́i ba qu’in̈gó"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada6mdpi, R.raw.surprise, "drún̈ zhurúi sën̈ t’oc"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada7mdpi, R.raw.surprise, "yë́i yón̈gro qu’ín̈go"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada8mdpi, R.raw.surprise, "qu’íniei c’róga go"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada9mdpi, R.raw.surprise, "huojói síra siráé"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.carneahumada10mdpi, R.raw.surprise, "yë́i cuírque jón̈ ei"));
 
 
 

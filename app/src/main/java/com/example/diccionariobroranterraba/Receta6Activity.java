@@ -61,9 +61,10 @@ public class Receta6Activity extends AppCompatActivity implements RecyclerAdapte
         //Creates an array of images and soundEffects
         imageAndSoundModelArrayList = new ArrayList<>();
 
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.adona, R.raw.suspenso, "Dona"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.agatito, R.raw.taantaantan, "Gatito"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animales, R.raw.trompeta, "Animales"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.bananoverdeasado1mdpi, R.raw.surprise, "québin̈ cuóta shói béië"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.bananoverdeasado2mdpi, R.raw.surprise, "cuóta shcuë́i"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.bananoverdeasado3mdpi, R.raw.surprise, "zrë́i jón̈ yocséa iroi"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.bananoverdeasado4mdpi, R.raw.surprise, "e huorcuë́i"));
 
         RecyclerAdapter adapter = new RecyclerAdapter(imageAndSoundModelArrayList, getApplicationContext(), this);
         recyclerView.setLayoutManager(new GridLayoutManager(Receta6Activity.this, 2));

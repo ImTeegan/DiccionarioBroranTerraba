@@ -61,9 +61,23 @@ public class Receta10Activity extends AppCompatActivity implements RecyclerAdapt
         //Creates an array of images and soundEffects
         imageAndSoundModelArrayList = new ArrayList<>();
 
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.adona, R.raw.suspenso, "Dona"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.agatito, R.raw.taantaantan, "Gatito"));
-        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.animales, R.raw.trompeta, "Animales"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldemaiz1mdpi, R.raw.surprise, "ë́b cuó e ŕíi pehuó c’ór\n" +
+                "prún̈sho go (gën̈mó c’ór)"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldemaiz2mdpi, R.raw.surprise, "cuoshcuë́i dí go cuóta\n" +
+                "dói huaŕó"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldemaiz3mdpi, R.raw.surprise, "dáno pírga cŕói apcuóta go"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldemaiz4mdpi, R.raw.surprise, "dúrgo c’órga zë́i cŕó shco"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldemaiz5mdpi, R.raw.surprise, "cuóshcuëi píre"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldemaiz6mdpi, R.raw.surprise, "yë́i chírahua cará quë́zbán̈ qu’ín̈go"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldemaiz7mdpi, R.raw.surprise, "ë́b shó yë́i sirá c’róga\n" +
+                "qu’ín̈go"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldemaiz8mdpi, R.raw.surprise, "shtahuó e së́n̈na dion sŕo sŕó\n" +
+                "shó yë́i ba qu’in̈gó"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldemaiz9mdpi, R.raw.surprise, "shó yë́i sirá óbi ba qu’ín̈go"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldemaiz10mdpi, R.raw.surprise, "pobguë́i cróga ŕigó"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldemaiz11mdpi, R.raw.surprise, "huórbo shpúi ba iró shco ŕë́i"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldemaiz12mdpi, R.raw.surprise, "pobríi qu’ipcuó go"));
+        imageAndSoundModelArrayList.add(new ImageAndSoundModel(R.drawable.tamaldemaiz13mdpi, R.raw.surprise, "yë́i zbí iroi ga e ŕíi c’oc cuará béië"));
 
         RecyclerAdapter adapter = new RecyclerAdapter(imageAndSoundModelArrayList, getApplicationContext(), this);
         recyclerView.setLayoutManager(new GridLayoutManager(Receta10Activity.this, 2));
